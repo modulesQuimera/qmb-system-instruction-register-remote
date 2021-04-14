@@ -1,0 +1,25 @@
+{
+  "name": "qmb-system-instruction-register-remote",
+  "version": "1.0.0",
+  "description": "System instruction register remote",
+  "main": "register_remote.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modulesQuimera/qmb-system-instruction-register-remote.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/modulesQuimera/qmb-system-instruction-register-remote/issues"
+  },
+  "homepage": "https://github.com/modulesQuimera/qmb-system-instruction-register-remote#readme",
+  "node-red" : {
+    "nodes": {
+        "register_remote": "register_remote.js"
+    }
+  }
+}
