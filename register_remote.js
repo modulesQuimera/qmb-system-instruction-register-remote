@@ -15,8 +15,8 @@ module.exports = function(RED) {
                 action: "register_remote",
                 payload: {
                     attributes: [
-                        { source_value:  parseInt(node.source_value) },
-                        { time_sleep:  parseInt(node.time_sleep) }
+                        { name: "source_value", value: parseInt(node.source_value) },
+                        { name: "time_sleep", value: parseInt(node.time_sleep) }
                     ],
                 }
             };
